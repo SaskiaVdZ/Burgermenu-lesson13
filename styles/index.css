@@ -1,6 +1,12 @@
+
+nav {
+    font-family:'Inter', sans-serif;
+}
+
 label {
     font-size: 40px;
     padding: 20px;
+    color:#64d810;
 }
 
 #hamnav {
@@ -22,12 +28,14 @@ label {
     text-align: center;
     flex-grow: 1;
     flex-basis: 0;
-    color: darksalmon;
+    color: black;
+    opacity: 0.80;
     font-size: 20px;
+    margin-top: 20px;
 }
 
 #hamitems a:hover {
-    background: bisque;
+    background: #c1ef9fff;
 }
 
 
@@ -42,7 +50,7 @@ label {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    border-top: 1px solid #77d;
+    border-top: /*1px solid #c1ef9fff;*/
 }
 
 #hamnav label {
@@ -50,7 +58,7 @@ label {
 }
 
 #hamitems { display: none; }
-#hamnav input:checked ~ #hamitems { display: block; }
+#hamnav input:checked ~ #hamitems { display: block;}
 }
 
 
