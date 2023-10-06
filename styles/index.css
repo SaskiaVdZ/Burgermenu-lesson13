@@ -50,7 +50,7 @@ label {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    border-top: /*1px solid #c1ef9fff;*/
+    border-top: none;
 }
 
 #hamnav label {
